@@ -10,7 +10,7 @@ function encode(string, shift) {
         let indexOfNumLetter = numbers.indexOf(letter);
 
         let newIndexOfLetter = indexOfLetter + shift;
-        var newIndexOfNumLetter = indexOfNumLetter + shift;
+        let newIndexOfNumLetter = indexOfNumLetter + shift;
 
         if (letter === " ") {
             result.push(letter);
@@ -47,7 +47,7 @@ function decode(string, shift) {
         let indexOfNumLetter = numbers.indexOf(letter);
 
         let newIndexOfLetter = indexOfLetter - shift;
-        var newIndexOfNumLetter = indexOfNumLetter - shift;
+        let newIndexOfNumLetter = indexOfNumLetter - shift;
 
         if (letter === " ") {
             result.push(letter);
